@@ -791,4 +791,20 @@ seuls l&apos;utilisateur root ou les membres du groupe zulucrypt-system disposen
     <source>encrypted file created successfully</source>
     <target>création du fichier chiffré terminée avec succès</target>
 </phrase>
+<phrase>
+    <source>decrypted file created successfully</source>
+    <target>création du fichier déchiffré terminée avec succès</target>
+</phrase>
+<phrase>
+    <source>could not open keyfile for reading</source>
+    <target>impossible d&apos;ouvrir le fichier de clé en lecture</target>
+</phrase>
+<phrase>
+    <source>missing key source</source>
+    <target>clé d&apos;origine manquante</target>
+</phrase>
+<phrase>
+    <source>could not open encryption routines</source>
+    <target>impossible d&apos;ouvrir les routines de chiffrement</target>
+</phrase>
 </QPH>

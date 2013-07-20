@@ -1067,22 +1067,22 @@ seuls l&apos;utilisateur root ou les membres du groupe zulucrypt-system disposen
     <message>
         <location filename="../../zuluCrypt-gui/cryptfiles.cpp" line="345"/>
         <source>decrypted file created successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>création du fichier déchiffré terminée avec succès</translation>
     </message>
     <message>
         <location filename="../../zuluCrypt-gui/cryptfiles.cpp" line="347"/>
         <source>could not open keyfile for reading</source>
-        <translation type="unfinished"></translation>
+        <translation>impossible d&apos;ouvrir le fichier de clé en lecture</translation>
     </message>
     <message>
         <location filename="../../zuluCrypt-gui/cryptfiles.cpp" line="348"/>
         <source>missing key source</source>
-        <translation type="unfinished"></translation>
+        <translation>clé d&apos;origine manquante</translation>
     </message>
     <message>
         <location filename="../../zuluCrypt-gui/cryptfiles.cpp" line="349"/>
         <source>could not open encryption routines</source>
-        <translation type="unfinished"></translation>
+        <translation>impossible d&apos;ouvrir les routines de chiffrement</translation>
     </message>
     <message>
         <location filename="../../zuluCrypt-gui/cryptfiles.cpp" line="350"/>
