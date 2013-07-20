@@ -611,4 +611,8 @@ et un second point &quot;miroir&quot;, accessible publiquement sera créé dans 
     <source>atleast one required field is empty</source>
     <target>l&apos;un des champs requis au moins est vide</target>
 </phrase>
+<phrase>
+    <source>illegal character detected in the hidden volume size field</source>
+    <target>caractère interdit dans le champ taille du volume caché</target>
+</phrase>
 </QPH>

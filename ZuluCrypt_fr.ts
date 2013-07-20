@@ -757,7 +757,7 @@ il est impossible de créer des volumes utilisant cet outil.</translation>
     <message>
         <location filename="../../zuluCrypt-gui/createvolume.cpp" line="377"/>
         <source>illegal character detected in the hidden volume size field</source>
-        <translation type="unfinished"></translation>
+        <translation>caractère interdit dans le champ taille du volume caché</translation>
     </message>
     <message>
         <location filename="../../zuluCrypt-gui/createvolume.cpp" line="384"/>
