@@ -615,4 +615,180 @@ et un second point &quot;miroir&quot;, accessible publiquement sera créé dans 
     <source>illegal character detected in the hidden volume size field</source>
     <target>caractère interdit dans le champ taille du volume caché</target>
 </phrase>
+<phrase>
+    <source>hidden passphrases do not match</source>
+    <target>les phrases de passe cachées ne correspondent pas</target>
+</phrase>
+<phrase>
+    <source>passphrases do not match</source>
+    <target>les phrases de passe  ne correspondent pas</target>
+</phrase>
+<phrase>
+    <source>volume created successfully</source>
+    <target>volume créé avec succès</target>
+</phrase>
+<phrase>
+    <source>
+
+creating a backup of the luks header is strongly advised.
+Please read documentation on why this is important.</source>
+    <target>
+
+Il est recommandé de créer une sauvegarde de l&apos;en-tête luks
+Merci de lire la documentation au sujet de cette recommandation.</target>
+</phrase>
+<phrase>
+    <source>presented file system is not supported,see documentation for more information</source>
+    <target>le système de fichier présenté n&apos;est pas supporté, voir la documentation pour plus d&apos;information</target>
+</phrase>
+<phrase>
+    <source>insufficient privilege to open a system device in read/write mode,
+only root user or members of group zulucrypt-system can do that</source>
+    <target>permissions insuffisantes pour ouvrir un system-device. en mode lecture/écriture,
+seuls l&apos;utilisateur root ou les membres du groupe zulucrypt-system disposent de cette autorisation</target>
+</phrase>
+<phrase>
+    <source>could not create an encrypted volume</source>
+    <target>impossible de créer un volume crypté</target>
+</phrase>
+<phrase>
+    <source>could not open volume for writing</source>
+    <target>impossible d&apos;ouvrir le volume en écriture</target>
+</phrase>
+<phrase>
+    <source>there seem to be an opened mapper associated with the device</source>
+    <target>il y a déjà un mapper ouvert associé à ce device</target>
+</phrase>
+<phrase>
+    <source>can not create a volume on a mounted device</source>
+    <target>impossible de créer un volume sur un device monté</target>
+</phrase>
+<phrase>
+    <source>%1 not found</source>
+    <target>%1 non trouvé</target>
+</phrase>
+<phrase>
+    <source>insufficient memory to hold your response</source>
+    <target>Mémoire insuffisante pour contenir votre réponse</target>
+</phrase>
+<phrase>
+    <source>operation terminated per user request</source>
+    <target>opération terminée à la demande de l&apos;utilisateur</target>
+</phrase>
+<phrase>
+    <source>could not get passphrase in silent mode</source>
+    <target>impossible d&apos;obtenir la phrase de passe en mode silencieux</target>
+</phrase>
+<phrase>
+    <source>insufficient memory to hold the passphrase</source>
+    <target>Mémoire insuffisante pour contenir la phrase de passe</target>
+</phrase>
+<phrase>
+    <source>invalid path to key file</source>
+    <target>chemin vers le fichier de clé invalide</target>
+</phrase>
+<phrase>
+    <source>could not get a key from a key file</source>
+    <target>impossible d&apos;obtenir une clé à partir du fichier de clé</target>
+</phrase>
+<phrase>
+    <source>couldnt get enought memory to hold the key file</source>
+    <target>Mémoire insuffisante pour contenir le fichier de clé</target>
+</phrase>
+<phrase>
+    <source>could not get a key from a socket</source>
+    <target>impossible d&apos;obtenir une clé depuis un socket</target>
+</phrase>
+<phrase>
+    <source>one or more required argument(s) for this operation is missing</source>
+    <target>un ou plusieurs arguments requis pour cette opération sont manquant</target>
+</phrase>
+<phrase>
+    <source>one or more required argument(s) for this operation is missing</source>
+    <target>un ou plusieurs arguments requis pour cette opération sont manquants</target>
+</phrase>
+<phrase>
+    <source>could not find any partition with the presented UUID</source>
+    <target>aucune partition ne correspond à cet UUID</target>
+</phrase>
+<phrase>
+    <source>unrecognized ERROR! with status number %1 encountered</source>
+    <target>ERROR! non reconnue. numéro de status %1</target>
+</phrase>
+<phrase>
+    <source>destination path</source>
+    <target>chemin de destination</target>
+</phrase>
+<phrase>
+    <source>source path</source>
+    <target>chemin d&apos;origine</target>
+</phrase>
+<phrase>
+    <source>enter a key</source>
+    <target>saisir une clé</target>
+</phrase>
+<phrase>
+    <source>enter a path to a keyfile location</source>
+    <target>saisir le chemin vers l&apos;emplacement du fichier de clé</target>
+</phrase>
+<phrase>
+    <source>create encrypted version of a file</source>
+    <target>créer la version chiffrée d&apos;un fichier</target>
+</phrase>
+<phrase>
+    <source>create decrypted version of an encrypted file</source>
+    <target>créer la version déchiffrée d&apos;un fichier chiffré</target>
+</phrase>
+<phrase>
+    <source>path to source field is empty</source>
+    <target>le chemin du fichier d&apos;origine est vide</target>
+</phrase>
+<phrase>
+    <source>invalid path to source file</source>
+    <target>chemin du fichier d&apos;origine invalide</target>
+</phrase>
+<phrase>
+    <source>destination path already taken</source>
+    <target>chemin de destination déjà pris</target>
+</phrase>
+<phrase>
+    <source>first key field is empty</source>
+    <target>le premier champ clé est vide</target>
+</phrase>
+<phrase>
+    <source>second key field is empty</source>
+    <target>le second champ clé est vide</target>
+</phrase>
+<phrase>
+    <source>keys do not match</source>
+    <target>les clés  ne correspondent pas</target>
+</phrase>
+<phrase>
+    <source>Select Path to put destination file</source>
+    <target>choisir le chemin du fichier de destination</target>
+</phrase>
+<phrase>
+    <source>select a file you want to encrypt</source>
+    <target>sélectionner le fichier à chiffrer</target>
+</phrase>
+<phrase>
+    <source>zuluCrypt encrypted files ( *.zc ) ;; All Files ( * )</source>
+    <target>fichiers chiffrés zuluCrypt ( *.zc ) ;; Tous fichiers ( * )</target>
+</phrase>
+<phrase>
+    <source>select a file you want to decrypt</source>
+    <target>sélectionner le fichier à déchiffrer</target>
+</phrase>
+<phrase>
+    <source>select a keyfile</source>
+    <target>choisir un fichier de clé</target>
+</phrase>
+<phrase>
+    <source>SUCCESS</source>
+    <target>SUCCES</target>
+</phrase>
+<phrase>
+    <source>encrypted file created successfully</source>
+    <target>création du fichier chiffré terminée avec succès</target>
+</phrase>
 </QPH>
