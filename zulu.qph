@@ -1,0 +1,614 @@
+<!DOCTYPE QPH>
+<QPH sourcelanguage="en" language="fr_FR">
+<phrase>
+    <source>&amp;ok</source>
+    <target>&amp;ok</target>
+</phrase>
+<phrase>
+    <source>&amp;yes</source>
+    <target>&amp;oui</target>
+</phrase>
+<phrase>
+    <source>cipher</source>
+    <target>clé de chiffrement</target>
+</phrase>
+<phrase>
+    <source>offset</source>
+    <target>déplacement</target>
+</phrase>
+<phrase>
+    <source>size</source>
+    <target>taille</target>
+</phrase>
+<phrase>
+    <source>active slots</source>
+    <target>slots actifs</target>
+</phrase>
+<phrase>
+    <source>By default,volumes are mounted with &quot;noexec&quot; option and hence its not possible to run 
+programs or scripts from them.To do so,create a group called &quot;zulumount-exec&quot; and add yourself to the group and volumes will start to be mounted with &quot;exec&quot; option and ability to runprograms or scripts from the volume will be enabled.
+
+&quot;system volumes&quot; are volumes that either udev has identify them as such if udev is enabled or have an entry in &quot;/etc/fstab&quot;,&quot;/etc/crypttab&quot; or &quot;/etc/zuluCrypt-system&quot;.
+
+If you prefer for a device not to be considered a system device,start the tool
+
+from root account and then go to &quot;menu-&gt;options-&gt;manage non system partitions&quot;
+
+and add the device to the list and the device will stop being considered as &quot;system&quot;.
+
+Alternatively,you can add yourself to group &quot;zulucrypt&quot; and all restrictions will be gone</source>
+    <target>Par défaut, les volumes sont montés avec l&apos;option &quot;noexec&quot;. En conséquence, il n&apos;est pas possible de lancer
+des programmes ou des scripts dpuis ces montages Pour pouvoir le faire, créer un groupe nommé &quot;zulumount-exec&quot; et ajoutez-vous comme membre de ce groupe. Les volumes seront alors montés avec l&apos;option &quot;-exec&quot; et vous retrouverez la possibilité de lancer des programmes ou des scripts depuis le volume.
+
+&quot;system-volumes&quot; sont soit des volumes identifiés comme tel par udev si udef est activé ou disposent d&apos;une entrée dans &quot;/etc/fstab&quot;, &quot;/etc/crypttab&quot; ou &quot;/etc/zuluCrypt-system&quot;.
+
+Si vous préférez qu&apos;un device ne soit pas considéré comme system-device, démarrer l&apos;outil
+
+depuis le compte root et aller sur &quot;menu-&gt;options-&gt;manage non system partitions&quot;
+
+ajouter le device à la liste et il cessera alors d&apos;être considéré comme &quot;system&quot;.
+
+Vous pouvez aussi vous ajouter au groupe &quot;zulucrypt&quot;, ce qui lévera toutes les restrictions</target>
+</phrase>
+<phrase>
+    <source>INFORMATION</source>
+    <target>INFORMATION</target>
+</phrase>
+<phrase>
+    <source>insufficient privilege to access a system device,
+only root user or members of group zulucrypt can do that</source>
+    <target>permissions insuffisantes pour accéder à un system-device.
+seuls l&apos;utilisateur root ou les membres du groupe zulucrypt disposent de cette autorisation</target>
+</phrase>
+<phrase>
+    <source>insufficient privilege to access a system device in read/write mode,
+only root user or members of group zulucrypt-write can do that</source>
+    <target>permissions insuffisantes pour accéder à un system-device. en mode lecture/écriture,
+seuls l&apos;utilisateur root ou les membres du groupe zulucrypt disposent de cette autorisation</target>
+</phrase>
+<phrase>
+    <source>you do not seem to have proper permissions to access the encrypted file in %1 mode,check file permissions and try again</source>
+    <target>vous n&apos;avez apparemment pas les permissions correctes pour accéder au fichier crypté en mode %1, vérifier les permissions du fichier et ré-essayer</target>
+</phrase>
+<phrase>
+    <source>do not show this dialog again</source>
+    <target>ne plus montrer cette boîte de dialogue à l&apos;avenir</target>
+</phrase>
+<phrase>
+    <source>volume path</source>
+    <target>Chemin du volume</target>
+</phrase>
+<phrase>
+    <source>mount point path</source>
+    <target>Chemin du point de montage</target>
+</phrase>
+<phrase>
+    <source>file system</source>
+    <target>Système de fichiers</target>
+</phrase>
+<phrase>
+    <source>label</source>
+    <target>Etiquette</target>
+</phrase>
+<phrase>
+    <source>size</source>
+    <target>Taille</target>
+</phrase>
+<phrase>
+    <source>%used</source>
+    <target>%utilisé</target>
+</phrase>
+<phrase>
+    <source>&amp;unmount</source>
+    <target>&amp;Démonter</target>
+</phrase>
+<phrase>
+    <source>mount in read &amp;only mode</source>
+    <target>Monter en mode &amp;lecture seule</target>
+</phrase>
+<phrase>
+    <source>&amp;mount file</source>
+    <target>&amp;Monter un fichier</target>
+</phrase>
+<phrase>
+    <source>&amp;refresh</source>
+    <target>&amp;Rafraîchir</target>
+</phrase>
+<phrase>
+    <source>&amp;close</source>
+    <target>&amp;fermer</target>
+</phrase>
+<phrase>
+    <source>automount volumes</source>
+    <target>Montage automatique des volumes</target>
+</phrase>
+<phrase>
+    <source>auto open mount point</source>
+    <target>Ouverture automatique du point de montage</target>
+</phrase>
+<phrase>
+    <source>quit</source>
+    <target>quitter</target>
+</phrase>
+<phrase>
+    <source>LABEL=&quot;%1&quot;</source>
+    <target>ETIQUETTE=&quot;%1&quot;</target>
+</phrase>
+<phrase>
+    <source>LABEL=&quot;%1&quot;
+%2</source>
+    <target>ETIQUETTE=&quot;%1&quot;
+%2</target>
+</phrase>
+<phrase>
+    <source>mount</source>
+    <target>monter</target>
+</phrase>
+<phrase>
+    <source>unmount</source>
+    <target>démonter</target>
+</phrase>
+<phrase>
+    <source>properties</source>
+    <target>propriétés</target>
+</phrase>
+<phrase>
+    <source>open folder</source>
+    <target>ouvrir un répertoire</target>
+</phrase>
+<phrase>
+    <source>open private folder</source>
+    <target>ouvrir un répértoire privé</target>
+</phrase>
+<phrase>
+    <source>open shared folder</source>
+    <target>ouvrir un répertoire partagé</target>
+</phrase>
+<phrase>
+    <source>no available options for this volume</source>
+    <target>aucune option disponible pour ce volume</target>
+</phrase>
+<phrase>
+    <source>close menu</source>
+    <target>fermer le menu</target>
+</phrase>
+<phrase>
+    <source>warning</source>
+    <target>attention</target>
+</phrase>
+<phrase>
+    <source>could not open mount point because &quot;%1&quot; tool does not appear to be working correctly</source>
+    <target>impossible d&apos;ouvrir le point de montage car l&apos;outil &quot;%1&quot; semble ne pas fonctionner correctement</target>
+</phrase>
+<phrase>
+    <source>ERROR</source>
+    <target>ERREUR</target>
+</phrase>
+<phrase>
+    <source>could not get volume properties.
+volume is not open or was opened by a different user</source>
+    <target>Impossible d&apos;accéder aux propriétés du volume.
+le volume n&apos;est pas ouvert ou il a été ouvert par un autre utilisateur</target>
+</phrase>
+<phrase>
+    <source>volume properties</source>
+    <target>propriétés du volume</target>
+</phrase>
+<phrase>
+    <source>permission to access the volume was denied
+or
+the volume is not supported
+(LVM/MDRAID signatures found)</source>
+    <target>accès au volume non autorisé
+ou
+le volume n&apos;est pas supporté
+(signatures LVM/MDRAID trouvées)</target>
+</phrase>
+<phrase>
+    <source>select an image file to mount</source>
+    <target>choisir un fichier image à monter</target>
+</phrase>
+<phrase>
+    <source>reading partition properties took longer than expected and operation was terminated,click refresh to try again</source>
+    <target>la lecture des propriétés de la partition prend plus de temps que prévu et l&apos;opération a été interrompue. Cliquer sur Rafraîchir pour essayer de nouveau</target>
+</phrase>
+<phrase>
+    <source>setting this option will cause the volume to open in read only mode</source>
+    <target>en choisissant cette option, le volume sera ouvert en mode lecture seule</target>
+</phrase>
+<phrase>
+    <source>info</source>
+    <target>information</target>
+</phrase>
+<phrase>
+    <source>
+options:
+	-d   path to where a volume to be auto unlocked/mounted is located
+	-m   tool to use to open a default file manager(default tool is xdg-open)
+</source>
+    <target>
+options:
+	-d   chemin vers lequel un volume devant être automatiquement déverouillé/monté sera situé
+	-m   outil pour déterminer le gestionnaire de fichiers par défaut (l&apos;outil utilisé par défaut est xdg-open)
+</target>
+</phrase>
+<phrase>
+    <source>	-e   start the application without showing the GUI
+</source>
+    <target>	-e   démarre l&apos;application sans interface graphique</target>
+</phrase>
+<phrase>
+    <source>if the option is checked,a primary private mount point will be created in &quot;/run/media/private/$USER/&quot;
+and a secondary publicly accessible &quot;mirror&quot; mount point will be created in &quot;/run/media/public/&quot;</source>
+    <target>si cette option est sélectionnée, un point de montage primaire, privé sera créé dans &quot;/run/media/private/$USER/&quot;
+et un second point &quot;miroir&quot;, accessible publiquement sera créé dans &quot;/run/media/public/&quot;</target>
+</phrase>
+<phrase>
+    <source>unlock and mount a luks volume</source>
+    <target>dévérouiller et monter un volume luks</target>
+</phrase>
+<phrase>
+    <source>&amp;open</source>
+    <target>&amp;ouvrir</target>
+</phrase>
+<phrase>
+    <source>&amp;cancel</source>
+    <target>&amp;annuler</target>
+</phrase>
+<phrase>
+    <source>key</source>
+    <target>clé</target>
+</phrase>
+<phrase>
+    <source>&amp;key</source>
+    <target>&amp;clé</target>
+</phrase>
+<phrase>
+    <source>key &amp;from a key file</source>
+    <target>clé &amp;depuis un fichier de clé</target>
+</phrase>
+<phrase>
+    <source>&amp;plugin</source>
+    <target>&amp;plugin</target>
+</phrase>
+<phrase>
+    <source>mount name</source>
+    <target>nom de montage</target>
+</phrase>
+<phrase>
+    <source>mount in &amp;read only mode</source>
+    <target>montage en mode &amp;lecture seule</target>
+</phrase>
+<phrase>
+    <source>&amp;share mount point</source>
+    <target>&amp;partager le point de montage</target>
+</phrase>
+<phrase>
+    <source>unlock and mount a luks volume in &quot;%1&quot;</source>
+    <target>dévérouiller et monter un volume luks sur &quot;%1&quot;</target>
+</phrase>
+<phrase>
+    <source>unlock and mount an encrypted volume in &quot;%1&quot;</source>
+    <target>dévérouiller et monter un volume crypté sur &quot;%1&quot;</target>
+</phrase>
+<phrase>
+    <source>plugin path</source>
+    <target>chemin des plugins</target>
+</phrase>
+<phrase>
+    <source>plugin name</source>
+    <target>nom du plugin</target>
+</phrase>
+<phrase>
+    <source>select a folder to create a mount point in</source>
+    <target>choisir un répertoire pour y créer un point de montage</target>
+</phrase>
+<phrase>
+    <source>select a file to be used as a keyfile</source>
+    <target>choisir un fichier à utiliser comme fichier de clé</target>
+</phrase>
+<phrase>
+    <source>cancel</source>
+    <target>annuler</target>
+</phrase>
+<phrase>
+    <source>warning</source>
+    <target>attention</target>
+</phrase>
+<phrase>
+    <source>could not open mount point because &quot;%1&quot; tool does not appear to be working correctly</source>
+    <target>impossible d&apos;ouvrir le point de montage car apparemment, l&apos;outil &quot;%1&quot; ne fonctionne pas correctement</target>
+</phrase>
+<phrase>
+    <source>ERROR</source>
+    <target>ERROR</target>
+</phrase>
+<phrase>
+    <source>An error has occured and the volume could not be opened</source>
+    <target>Une erreur est survenue et le volume ne peut pas être ouvert</target>
+</phrase>
+<phrase>
+    <source>passphrase field is empty</source>
+    <target>le champ mot de passe est vide</target>
+</phrase>
+<phrase>
+    <source>&quot;/&quot; character is not allowed in the mount name field</source>
+    <target>le caractère &quot;/&quot; est interdit dans le nom du point de montage</target>
+</phrase>
+<phrase>
+    <source>keyfile path</source>
+    <target>chemin du fichier de clé</target>
+</phrase>
+<phrase>
+    <source>select mount point path</source>
+    <target>choisir le point de montage</target>
+</phrase>
+<phrase>
+    <source>mount name</source>
+    <target>nom du montage</target>
+</phrase>
+<phrase>
+    <source>&amp;mount</source>
+    <target>&amp;monter</target>
+</phrase>
+<phrase>
+    <source>use la&amp;bel</source>
+    <target>utiliser l&apos;&amp;etiquette</target>
+</phrase>
+<phrase>
+    <source>&amp;cancel</source>
+    <target>&amp;annuler</target>
+</phrase>
+<phrase>
+    <source>mount &amp;read only</source>
+    <target>monter en mode &amp;lecture seule</target>
+</phrase>
+<phrase>
+    <source>&amp;share mount point</source>
+    <target>&amp;partager le point de montage</target>
+</phrase>
+<phrase>
+    <source>ERROR</source>
+    <target>ERROR</target>
+</phrase>
+<phrase>
+    <source>&quot;/&quot; character is not allowed in the mount name field</source>
+    <target>le caractère &quot;/&quot; est interdit dans le champ nom du montage</target>
+</phrase>
+<phrase>
+    <source>Select Path to mount point folder</source>
+    <target>Choisir le chemin vers le répertoire du point de montage</target>
+</phrase>
+<phrase>
+    <source>warning</source>
+    <target>attention</target>
+</phrase>
+<phrase>
+    <source>could not open mount point because &quot;%1&quot; tool does not appear to be working correctly</source>
+    <target>impossible d&apos;ouvrir le point de montage car l&apos;outil &quot;%1&quot; semble ne pas fonctionner correctement</target>
+</phrase>
+<phrase>
+    <source>There seem to be another instance running,exiting this one</source>
+    <target>Une autre instance est en cours d&apos;exécution, arrêt de la présente instance</target>
+</phrase>
+<phrase>
+    <source>Previous instance seem to have crashes,trying to clean up before starting</source>
+    <target>la précédente instance semble s&apos;être interrompue prématurément. Nettoyage avant de démarrer</target>
+</phrase>
+<phrase>
+    <source>open encrypted volume</source>
+    <target>ouvrir le volume crypté</target>
+</phrase>
+<phrase>
+    <source>open the volume in &amp;read only mode</source>
+    <target>ouvrir le volume en mode &amp;lecture seule</target>
+</phrase>
+<phrase>
+    <source>open volume path</source>
+    <target>ouvrir le chemin du volume</target>
+</phrase>
+<phrase>
+    <source>luks</source>
+    <target>luks</target>
+</phrase>
+<phrase>
+    <source>plain</source>
+    <target>plain</target>
+</phrase>
+<phrase>
+    <source>file name</source>
+    <target>nom du fichier</target>
+</phrase>
+<phrase>
+    <source>create a container file</source>
+    <target>créer un fichier container</target>
+</phrase>
+<phrase>
+    <source>file path</source>
+    <target>Chemin du fichier</target>
+</phrase>
+<phrase>
+    <source>file size</source>
+    <target>taille du fichier</target>
+</phrase>
+<phrase>
+    <source>open a folder dialog box</source>
+    <target>boîte de dialogue ouvrir un répertoire</target>
+</phrase>
+<phrase>
+    <source>% complete</source>
+    <target>% effectué</target>
+</phrase>
+<phrase>
+    <source>c&amp;reate</source>
+    <target>c&amp;réer</target>
+</phrase>
+<phrase>
+    <source>KB</source>
+    <target>KB</target>
+</phrase>
+<phrase>
+    <source>MB</source>
+    <target>MB</target>
+</phrase>
+<phrase>
+    <source>GB</source>
+    <target>GB</target>
+</phrase>
+<phrase>
+    <source>file name field is empty</source>
+    <target>le nom de fichier est vide</target>
+</phrase>
+<phrase>
+    <source>file path field is empty</source>
+    <target>le chemin de fichier est vide</target>
+</phrase>
+<phrase>
+    <source>file size field is empty</source>
+    <target>la taille du fichier est vide</target>
+</phrase>
+<phrase>
+    <source>Illegal character in the file size field.Only digits are allowed</source>
+    <target>caractère interdit dans le champ taille du fichier. Seuls les chiffres sont autorisés</target>
+</phrase>
+<phrase>
+    <source>file with the same name and at the destination folder already exist</source>
+    <target>un fichier de même nom existe déja dans le répertoire de destination</target>
+</phrase>
+<phrase>
+    <source>you dont seem to have writing access to the destination folder</source>
+    <target>vous n&apos;avez pas de droit d&apos;écriture sur le répertoire de destination</target>
+</phrase>
+<phrase>
+    <source>container file must be bigger than 3MB</source>
+    <target>le fichier container doit faire au moins 3MB</target>
+</phrase>
+<phrase>
+    <source>could not open cryptographic back end to generate random data</source>
+    <target>impossible d&apos;ouvrir l&apos;outil de cryptographie pour générer les données aléatoires</target>
+</phrase>
+<phrase>
+    <source>terminating file creation process</source>
+    <target>création du fichier terminée</target>
+</phrase>
+<phrase>
+    <source>are you sure you want to stop file creation process?</source>
+    <target>êtes vous sûr de vouloir interrompre le processus de création ?</target>
+</phrase>
+<phrase>
+    <source>2/2 write random data to a container file</source>
+    <target>2/2 écriture de données aléatoires dans un fichier container</target>
+</phrase>
+<phrase>
+    <source>Select Path to where the file will be created</source>
+    <target>Choisir l&apos;emplacement de création du fichier</target>
+</phrase>
+<phrase>
+    <source>create a key file</source>
+    <target>créer un fichier de clé</target>
+</phrase>
+<phrase>
+    <source>keyfile name</source>
+    <target>nom du fichier de clé</target>
+</phrase>
+<phrase>
+    <source>path to a folder to create a key in</source>
+    <target>emplacement du répertoire où sera créée la clé</target>
+</phrase>
+<phrase>
+    <source>open a folder a key file will be created in</source>
+    <target>ouvrir le répertoire où sera créé le fichier de clé</target>
+</phrase>
+<phrase>
+    <source>ERROR!</source>
+    <target>ERREUR!</target>
+</phrase>
+<phrase>
+    <source>the key name field is empth</source>
+    <target>le nom du fichier de clé est vide</target>
+</phrase>
+<phrase>
+    <source>folder path to where the key will be created is empty</source>
+    <target>le chemin du répertoire où sera créé le fichier de clé est vide</target>
+</phrase>
+<phrase>
+    <source>WARNING!</source>
+    <target>ATTENTION!</target>
+</phrase>
+<phrase>
+    <source>process interrupted,key not fully generated</source>
+    <target>processus interrompu. la clé n&apos;a pas été générée en totalité</target>
+</phrase>
+<phrase>
+    <source>SUCCESS!</source>
+    <target>SUCCES!</target>
+</phrase>
+<phrase>
+    <source>key file successfully created</source>
+    <target>création du fichier de clé terminée avec succès</target>
+</phrase>
+<phrase>
+    <source>Select a folder to create a key file in</source>
+    <target>Choisir le répertoire de destination du fichier de clé</target>
+</phrase>
+<phrase>
+    <source>create a new volume</source>
+    <target>créer un nouveau volume</target>
+</phrase>
+<phrase>
+    <source>repeat key</source>
+    <target>répéter la clé</target>
+</phrase>
+<phrase>
+    <source>volume type</source>
+    <target>type du volume</target>
+</phrase>
+<phrase>
+    <source>hidden key</source>
+    <target>clé cachée</target>
+</phrase>
+<phrase>
+    <source>hidden key from keyfile</source>
+    <target>clé cachée depuis un fichier de clé</target>
+</phrase>
+<phrase>
+    <source>volume size</source>
+    <target>taille du volume</target>
+</phrase>
+<phrase>
+    <source>normal truecrypt</source>
+    <target>truecrypt normal</target>
+</phrase>
+<phrase>
+    <source>normal+hidden truecrypt</source>
+    <target>truecrypt normal+caché</target>
+</phrase>
+<phrase>
+    <source>passphrase quality: 0/100</source>
+    <target>qualité de la phrase de passe: 0/100</target>
+</phrase>
+<phrase>
+    <source>passphrase quality: %1/100</source>
+    <target>qualité de la phrase de passe: %1/100</target>
+</phrase>
+<phrase>
+    <source>this tool expects to find file system creation tools at &quot;%1/&quot; </source>
+    <target>ce programme est censé trouver les outils de création de systéme de fichiers à &quot;%1/&quot;.</target>
+</phrase>
+<phrase>
+    <source>this tool expects to find file system creation tools at &quot;%1/&quot; </source>
+    <target>ce programme est censé trouver les outils de création de systéme de fichiers à &quot;%1/&quot; </target>
+</phrase>
+<phrase>
+    <source>keyfile</source>
+    <target>fichier de clé</target>
+</phrase>
+<phrase>
+    <source>volume path field is empty</source>
+    <target>le chemin du volume est vide</target>
+</phrase>
+<phrase>
+    <source>atleast one required field is empty</source>
+    <target>l&apos;un des champs requis au moins est vide</target>
+</phrase>
+</QPH>
